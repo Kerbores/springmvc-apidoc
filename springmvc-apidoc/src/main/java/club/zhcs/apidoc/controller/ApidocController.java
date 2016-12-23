@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.google.common.collect.Maps;
 
+import club.zhcs.apidoc.anno.ApiIgnore;
+
+@ApiIgnore
 @RestController
 public class ApidocController {
 
